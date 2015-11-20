@@ -1,0 +1,1233 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"backgroun",
+				"background-color: "
+			],
+			[
+				"border",
+				"border-radius: "
+			],
+			[
+				"backgr",
+				"background-image: "
+			],
+			[
+				"backg",
+				"background-color: "
+			],
+			[
+				"passwords",
+				"passwords_liststore"
+			],
+			[
+				"Resp",
+				"ResponseType"
+			],
+			[
+				"PAss",
+				"PasswordEntryDialog"
+			],
+			[
+				"passwor",
+				"passwords_liststore"
+			],
+			[
+				"passwors",
+				"passwords_visible"
+			],
+			[
+				"pass",
+				"passwords_visible"
+			],
+			[
+				"passwords_",
+				"passwords_visible"
+			],
+			[
+				"Parole",
+				"ParoleWindow"
+			],
+			[
+				"Parol",
+				"ParoleWindow"
+			],
+			[
+				"template",
+				"templateRootPath"
+			],
+			[
+				"googl",
+				"googleCalendarId"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"lo",
+				"localStorage"
+			],
+			[
+				"background",
+				"background-attachment: "
+			],
+			[
+				"user",
+				"user_agent"
+			],
+			[
+				"tx_trips_domain_model_slide",
+				"tx_trips_domain_model_slide"
+			],
+			[
+				"tripSlides",
+				"TripSlideshowImageRepository"
+			],
+			[
+				"poin",
+				"pointing_hand"
+			],
+			[
+				"Pro",
+				"ProcsTVColumns"
+			],
+			[
+				"mult",
+				"multipliers"
+			],
+			[
+				"payp",
+				"paypal-button"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_layouts/post.html",
+			"settings":
+			{
+				"buffer_size": 512,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 2398,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/hannenz/testtrackpath.html",
+			"settings":
+			{
+				"buffer_size": 3463,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/hannenz/testtrackpath.svg",
+			"settings":
+			{
+				"buffer_size": 15633,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "img/github-corner-right.svg",
+			"settings":
+			{
+				"buffer_size": 1174,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_sass/_settings.scss",
+			"settings":
+			{
+				"buffer_size": 306,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_sass/_layout.scss",
+			"settings":
+			{
+				"buffer_size": 2910,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "more.md",
+			"settings":
+			{
+				"buffer_size": 553,
+				"line_ending": "Unix",
+				"name": "---"
+			}
+		},
+		{
+			"contents": "<svg id=\"svg3075\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" style=\"position:absolute;top:0;right:0;\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"#151513\" height=\"80\" width=\"80\" version=\"1.1\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" viewBox=\"0 0 250 250\">\n	<path id=\"path3092\" fill=\"#000\" d=\"M0,0l36.125,36.156c0.017,0.008,0.044,0.023,0.063,0.032,0.379,0.173,1.055,0.411,1.312-0.032l2.312-2.062c-4.09-3.071-2.124-5.969-2.124-5.969,1.098-2.176,0.843-3.469,0.843-3.469-0.179-2.255,1.031-0.594,1.031-0.594,1.178,1.677,0.407,3.563,0.407,3.563-0.923,2.497,0.424,4.117,1.656,4.875l0.625-0.562c0.998-0.579,1.986-0.822,2.625-0.782-2.335-3.673-4.301-7.973,1.469-13.062,1.697-1.497,3.302-2.058,5.218-1.938,0.36-0.618,1.109-2.184,4.063-3.281,0,0,1.559,1.089,1.937,5.281,1.238,0.719,2.459,1.736,3.657,3.094,1.197,1.358,2.066,2.714,2.625,4.031,4.411,1.238,5.281,2.563,5.281,2.563-1.438,2.475-3.111,3.352-3.75,3.312-0.12,1.916-0.834,3.441-2.531,4.938-5.43,4.79-9.772,2.619-13.125-0.156-0.06,0.958-0.455,2.24-1.813,3.437l-4.062,3.25c-0.278,0.245-0.001,1.016,0.125,1.344l36.031,36.031v-80h-80z\" transform=\"scale(3.125,3.125)\"/>\n</svg>\n",
+			"file": "/home/hannenz/github-corner-right.svg",
+			"file_size": 1174,
+			"file_write_time": 130921451801915264,
+			"settings":
+			{
+				"buffer_size": 1174,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "about.md",
+			"settings":
+			{
+				"buffer_size": 822,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_sass/main.scss",
+			"settings":
+			{
+				"buffer_size": 340,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/page.html",
+			"settings":
+			{
+				"buffer_size": 209,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 643,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 102.0,
+		"last_filter": "menu",
+		"selected_items":
+		[
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"syntax",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntax:HTML",
+				"Set Syntax: HTML"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 173.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/hannenz/hannenz.de",
+		"/home/hannenz/hannenz.de/_layouts",
+		"/home/hannenz/hannenz.de/_sass",
+		"/home/hannenz/hannenz.de/img"
+	],
+	"file_history":
+	[
+		"/home/hannenz/hannenz.de/css/main.scss",
+		"/home/hannenz/hannenz.de/_layouts/post.html",
+		"/home/hannenz/hannenz.de/_posts/2014-05-16-nummerierte-listen-buendig-ausrichten.md",
+		"/home/hannenz/hannenz.de/_sass/_blog.scss",
+		"/home/hannenz/hannenz.de/_posts/2014-01-04-todo-eine-todo-txt-anwendung-fuer-elementaryos.md",
+		"/home/hannenz/hannenz.de/_sass/_typography.scss",
+		"/home/hannenz/hannenz.de/about.md",
+		"/home/hannenz/hannenz.de/_sass/_layout.scss",
+		"/home/hannenz/hannenz.de/_layouts/default.html",
+		"/home/hannenz/hannenz.de/_includes/header.html",
+		"/home/hannenz/hannenz.de/_posts/2014-04-08-drwright-typing-monitor-auf-elementaryos.md",
+		"/home/hannenz/hannenz.de/_posts/2013-12-16-das-gute-alte-makefile.md",
+		"/home/hannenz/hannenz.de/_site/typografie-im-web/index.html",
+		"/home/hannenz/hannenz.de/_sass/_settings.scss",
+		"/home/hannenz/hannenz.de/_posts/2014-05-23-textinhalte-ausblenden-mit-css.md",
+		"/home/hannenz/hannenz.de/_config.yml",
+		"/home/hannenz/hannenz.de/_includes/head.html",
+		"/home/hannenz/hannenz.de/index.html",
+		"/home/hannenz/.cache/.fr-1pfPjp/MissingFiles.txt",
+		"/home/hannenz/.cache/.fr-96vM50/MissingFiles.txt",
+		"/home/hannenz/hannenz.de/_includes/footer.html",
+		"/home/hannenz/hannenz.de/_sass/partials/_typography.scss",
+		"/home/hannenz/hannenz.de/_sass/partials/_settings.scss",
+		"/home/hannenz/hannenz.de/_sass/partials/_layout.scss",
+		"/home/hannenz/hannenz.de/_sass/main.scss",
+		"/home/hannenz/versichern.online/src/versichern.js",
+		"/home/hannenz/diverse_backups_und_stuff/hannenz.de/_site/img/hannenz.svg",
+		"/home/hannenz/versichern.online/module/tarifvergleich",
+		"/home/hannenz/versichern.online/module/ausgabeTarife_2Spalten",
+		"/home/hannenz/versichern.online/sass/_settings.scss",
+		"/home/hannenz/versichern.online/sass/partials/_svg.scss",
+		"/home/hannenz/versichern.online/sass/partials/_nav.scss",
+		"/home/hannenz/versichern.online/module/eingabeBeratung",
+		"/home/hannenz/versichern.online/sass/partials/_typography.scss",
+		"/home/hannenz/versichern.online/css/vorfina.css",
+		"/home/hannenz/versichern.online/module/versorgungsstatus",
+		"/home/hannenz/versichern.online/module/persKoordinaten",
+		"/home/hannenz/versichern.online/dummy.html",
+		"/home/hannenz/versichern.online/module/home",
+		"/home/hannenz/versichern.online/dbconnect.php",
+		"/home/hannenz/versichern.online/module/kundenbereich",
+		"/tmp/fz3temp-1/Vorlagen, 11102015.pptx",
+		"/home/hannenz/wolfgang-braun.de/_config.yml",
+		"/home/hannenz/diverse_backups_und_stuff/hannenzwelt/_sass/_colors.scss",
+		"/home/hannenz/diverse_backups_und_stuff/hannenzwelt/_sass/_base.scss",
+		"/home/hannenz/diverse_backups_und_stuff/hannenzwelt/css/main.scss",
+		"/home/hannenz/diverse_backups_und_stuff/hannenzwelt/_sass/_layout.scss",
+		"/home/hannenz/diverse_backups_und_stuff/hannenzwelt/assembler/assembler.md",
+		"/home/hannenz/diverse_backups_und_stuff/hannenzwelt/_source_codes/drop.txt",
+		"/home/hannenz/diverse_backups_und_stuff/hannenzwelt/__sass/_base.scss",
+		"/home/hannenz/wolfgang-braun-website/sass/_layout.scss",
+		"/home/hannenz/cktest.vala",
+		"/home/hannenz/family/css/caorle.css",
+		"/tmp/.fr-APxbeR/libmpdclient-2.9/vapi/libmpdclient.vapi",
+		"/home/hannenz/granite-demo/granite-0.3.1+r871+pkg84~ubuntu0.3.1/demo/GraniteDemo.vala",
+		"/home/hannenz/granite-demo/granite-0.3.1+r871+pkg84~ubuntu0.3.1/HACKING",
+		"/home/hannenz/granite-demo/granite-0.3.1+r871+pkg84~ubuntu0.3.1/lib/Application.vala",
+		"/home/hannenz/.config/sublime-text-3/Packages/User/parole.sublime-build",
+		"/home/hannenz/tests/blogtest.js",
+		"/media/wind-share/Jobs/Bayerntrips/tests/blogtest.js",
+		"/home/hannenz/Parole/data/parole.gresource.xml",
+		"/home/hannenz/Parole/src/parole.gresource.xml",
+		"/home/hannenz/Parole/src/parole.vala",
+		"/home/hannenz/Parole/src/main.vala",
+		"/home/hannenz/Parole/src/parole.desktop.in",
+		"/home/hannenz/Parole/src/window.ui",
+		"/home/hannenz/Parole/src/parole_window.vala",
+		"/home/hannenz/Parole/README",
+		"/home/hannenz/Passwords/src/database.vala",
+		"/home/hannenz/Passwords/README",
+		"/media/wind-www/bayerntrips/fileadmin/Templates/news/Templates/List.html",
+		"/media/wind-www/bayerntrips/fileadmin/Templates/ext/news/Partials/List/Item.html.orig",
+		"/media/wind-www/bayerntrips/fileadmin/Templates/ext/news/Partials/List/Item.html",
+		"/media/wind-www/bayerntrips/fileadmin/Templates/ext/news/Layouts/General.html",
+		"/media/wind-www/bayerntrips/fileadmin/Templates/ext/news/Templates/News/List.html",
+		"/media/wind-www/bayerntrips/fileadmin/ts/setup.ts",
+		"/media/wind-www/bayerntrips/fileadmin/ts/constants.ts",
+		"/media/wind-www/bayerntrips/fileadmin/FullCalendar/myCalSettings.js",
+		"/media/wind-www/bayerntrips/fileadmin/js/moment.min.js",
+		"/media/wind-www/bayerntrips/fileadmin/js/myCalSettings.js",
+		"/media/wind-www/bayerntrips/typo3conf/ext/trips/Resources/Private/Templates/Trip/List.html",
+		"/media/wind-www/bayerntrips/fileadmin/css/additional.css",
+		"/media/wind-www/bayerntrips/fileadmin/ts/personal_tours.ts",
+		"/media/wind-share/Jobs/Bayerntrips/SEO/todo",
+		"/home/hannenz/killme.html",
+		"/media/wind-www/bayerntrips/fileadmin/Templates/MainTemplate.html",
+		"/media/wind-www/bayerntrips/typo3conf/ext/news/Resources/Private/Templates/News/Detail.html",
+		"/home/hannenz/symon/src/main.vala",
+		"/media/hannenz/c22dac67-cf7f-4b01-909e-6ab43f7ee638/etc/issue",
+		"/media/hannenz/d19d674b-9506-4983-a05d-ea24ad37472c/etc/issue",
+		"/home/hannenz/test_ca65/test.s",
+		"/tmp/fz3temp-1/impressum.ctp",
+		"/tmp/fz3temp-1/contact.ctp",
+		"/home/hannenz/hannenz.de/bower_components/bourbon/readme.md",
+		"/media/wind-www/bayerntrips/typo3conf/ext/trips/Configuration/TCA/Trip.php",
+		"/media/wind-share/share/Scans/kopierter Text.txt",
+		"/home/hannenz/test_ca65/test.a",
+		"/home/hannenz/typebreaker/src/BreakWindow.vala",
+		"/home/hannenz/hannenzwelt/_drafts/draft.md",
+		"/home/hannenz/hannenzwelt/_sass/_syntax-highlighting.scss",
+		"/home/hannenz/hannenzwelt/_sass/_base.scss",
+		"/home/hannenz/hannenzwelt/_sass/_layout.scss",
+		"/home/hannenz/hannenzwelt/assembler/assembler.md",
+		"/home/hannenz/hannenzwelt/index.html",
+		"/home/hannenz/hannenzwelt/_layouts/default.html",
+		"/home/hannenz/hannenzwelt/_layouts/post.html",
+		"/home/hannenz/hannenzwelt/_layouts/project.html",
+		"/home/hannenz/hannenzwelt/_projects/realed/realed.md",
+		"/home/hannenz/hannenzwelt/_projects/char.star/char.star.md",
+		"/home/hannenz/hannenzwelt/_config.yml",
+		"/home/hannenz/hannenzwelt/_projects/xfile/xfile.md",
+		"/home/hannenz/hannenzwelt/homegrown/index.html",
+		"/home/hannenz/hannenzwelt/mucke/mucke.md",
+		"/home/hannenz/hannenzwelt/pics/pics.md",
+		"/home/hannenz/hannenzwelt/_mucke/mucke.md",
+		"/home/hannenz/hannenzwelt/_projects/diskfind.md",
+		"/home/hannenz/hannenzwelt/_posts/2014-11-04-welcome-to-jekyll.markdown",
+		"/home/hannenz/hannenzwelt/_source_codes/setgfx.md",
+		"/home/hannenz/hannenzwelt/_source_codes/asc2num.md",
+		"/home/hannenz/hannenzwelt/hardware/hardware.md",
+		"/home/hannenz/hannenzwelt/_includes/header.html",
+		"/home/hannenz/hannenzwelt/_includes/head.html",
+		"/home/hannenz/hannenzwelt/_includes/navigation.html",
+		"/home/hannenz/hannenzwelt/assembler/source-codes.md",
+		"/home/hannenz/hannenzwelt/_projects/neue Datei",
+		"/home/hannenz/hannenzwelt/_layouts/source_code.html",
+		"/home/hannenz/.cache/.fr-QOTs98/netmon.c",
+		"/home/hannenz/.cache/.fr-hK1qT1/netserv.asc"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/hannenz/hannenz.de",
+			"/home/hannenz/versichern.online/sass/partials",
+			"/home/hannenz/versichern.online/sass",
+			"/home/hannenz/versichern.online/src",
+			"/home/hannenz/versichern.online/module",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"1111",
+			"strokeDashoffset",
+			"container",
+			".inner",
+			"containe",
+			"containe4r",
+			"container",
+			"container-inner",
+			"joh",
+			"flex",
+			"media",
+			"home",
+			"left",
+			".left",
+			"whitesmoke",
+			"255, 255, 255,",
+			".right",
+			"#fff",
+			"3em",
+			"ersh",
+			"for Google search results",
+			"language-make",
+			"make",
+			">    ",
+			"kaufe",
+			"colspan",
+			"table",
+			"&darr; ",
+			"<div class=\"vergleich",
+			"versStatus",
+			"16px",
+			"<div align=\"right\">",
+			" style=\"padding-top:10px;padding-bottom:10px;padding-left:5px;padding-right:5px\"",
+			"style=\"padding-top:10px;padding-bottom:10px;padding-left:5px;padding-right:5px\"",
+			" style=\"padding-top:10px;padding-bottom:10px;padding-left:5px;padding-right:5px\"",
+			"ergebis",
+			"eaeaea",
+			"radial",
+			"jetzt abschlie",
+			"ng-",
+			"col-sm-4",
+			"col-md",
+			"<td width=\"100px\"",
+			"fff",
+			"background",
+			"br",
+			"vAlign=\"center\"",
+			"ng-click",
+			"type=\"input",
+			"input",
+			"in H&ouml;he von {{versStatus}}",
+			"div",
+			"erg.result[0].versStatus",
+			"versStatus",
+			"versorgungsl",
+			"fusion",
+			"raphael",
+			"status",
+			"hr",
+			"Ende Kundenbereich",
+			"style=\"width: 120px;\"",
+			"input[type=radio]",
+			"select_bg",
+			"                <h3 class=\"card__title",
+			"                <h3 class=\"card__title\">Versorgungscheck</h3>\n                <p class=\"card__text\">\n                    Jetzt Versorgungsstatus erstellen und bedarfgerecht aufstellen!\n                </p>\n",
+			"<div class=\"card\">",
+			"card ",
+			"col-md-3",
+			"col-lg-3 col-sm-2 card",
+			"col-lg-4",
+			" + 20",
+			"<td width=\"25px\" align=\"center\"> | </td>",
+			"post-title",
+			"post-meta",
+			"cyan",
+			"color",
+			"<img src",
+			"<img src=\"http://lorempixel.com/400/200/nature/1\" />",
+			"@media",
+			"20%;",
+			"#ccc",
+			"37.5",
+			"outer-container",
+			"{\n",
+			";\n",
+			"\n\n		<p>",
+			"\n\n	",
+			"\n",
+			"url(#clip",
+			"circle-clip",
+			"circle(400px at 50% 50%)",
+			"autoplay",
+			"fonts",
+			"render",
+			"url",
+			"Granite.Widgets",
+			"sidebar_sw",
+			"lock",
+			"password",
+			"password>",
+			"root",
+			"16",
+			"passwords_visible",
+			"passwordEntry",
+			"out ",
+			"title",
+			"this",
+			"out",
+			"entry name",
+			"title",
+			"passwordEntry",
+			", t",
+			"findSubNode",
+			"url",
+			"path",
+			"src/resources.c",
+			"Bayerntrips",
+			"reveal",
+			"'",
+			"ParoleWindow",
+			"article",
+			"blog",
+			"rootPath",
+			"Partials",
+			"Templates",
+			"tx_news",
+			"news",
+			"calendar"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<a href=\"/\">Home</a>",
+			"/pages/impressum.html",
+			"/pages/service.html",
+			"/pages/about.html",
+			"/pages/nugget.html",
+			"/pages/jewellery.html",
+			"/pages/clocks.html"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_layouts/post.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 512,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								315,
+								315
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_layouts/default.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2398,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								124,
+								124
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/hannenz/testtrackpath.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								280,
+								280
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/hannenz/testtrackpath.svg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15633,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								331,
+								331
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "img/github-corner-right.svg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1174,
+								1174
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_sass/_settings.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 306,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_sass/_layout.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2910,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "more.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 553,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"auto_name": "---",
+							"incomplete_sync": null,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/home/hannenz/github-corner-right.svg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1174,
+								1174
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "about.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 822,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4,
+								4
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "_sass/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								340,
+								340
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "_layouts/page.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43,
+								43
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 643,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								35
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 114.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 378.0
+	},
+	"pinned_build_system": "",
+	"project": "hannenz.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"etti",
+				"_sass/_settings.scss"
+			],
+			[
+				"ett",
+				"_posts/2014-01-04-todo-eine-todo-txt-anwendung-fuer-elementaryos.md"
+			],
+			[
+				"ty",
+				"_sass/_typography.scss"
+			],
+			[
+				"sett",
+				"_sass/_settings.scss"
+			],
+			[
+				"lay",
+				"_sass/_layout.scss"
+			],
+			[
+				"typo",
+				"_sass/_typography.scss"
+			],
+			[
+				"pos",
+				"_layouts/post.html"
+			],
+			[
+				"ab",
+				"about.md"
+			],
+			[
+				"blo",
+				"_sass/_blog.scss"
+			],
+			[
+				"typ",
+				"_sass/_typography.scss"
+			],
+			[
+				"ty/",
+				"_site/typografie-im-web/index.html"
+			],
+			[
+				"",
+				"_sass/_layout.scss"
+			],
+			[
+				"setting",
+				"_sass/_settings.scss"
+			],
+			[
+				"kunden",
+				"module/kundenbereich"
+			],
+			[
+				"versicher",
+				"src/versichern.js"
+			],
+			[
+				"vergle",
+				"module/tarifvergleich"
+			],
+			[
+				"hea",
+				"header.html"
+			],
+			[
+				"header",
+				"header.html"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"layout",
+				"sass/partials/_layout.scss"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"main",
+				"sass/main.scss"
+			],
+			[
+				"forms",
+				"sass/partials/_forms.scss"
+			],
+			[
+				"head",
+				"header.html"
+			],
+			[
+				"layou",
+				"sass/partials/_layout.scss"
+			],
+			[
+				"index.",
+				"index.php"
+			],
+			[
+				"homegrown",
+				"homegrown/index.html"
+			],
+			[
+				"yml",
+				"_config.yml"
+			],
+			[
+				"y",
+				"_config.yml"
+			],
+			[
+				"addi",
+				"fileadmin/css/additional.css"
+			],
+			[
+				"bayerntr",
+				"fileadmin/css/bayerntrips.css"
+			],
+			[
+				"additio",
+				"fileadmin/css/additional.css"
+			],
+			[
+				"bayernt",
+				"fileadmin/css/bayerntrips.css"
+			],
+			[
+				"tripc",
+				"typo3conf/ext/trips/Classes/Controller/TripController.php"
+			],
+			[
+				"slidec",
+				"/media/wind-www/bayerntrips/typo3conf/ext/trips/Classes/Controller/SlideController.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 270.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

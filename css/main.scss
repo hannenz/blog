@@ -1,0 +1,26 @@
+---
+---
+/**
+ * main.scss
+ */
+@import "bourbon/bourbon";
+
+@import "settings";
+@import "layout";
+@import "blog";
+@import "typography";
+
+
+.prism-show-language-label {
+	font-family:monospace;
+	line-height:1;
+	background-color:#F5F2F0;
+	margin:0;
+	padding:0.5em;
+	text-align: right;
+	display:none;
+}
+
+pre[class*="language-"] {
+	margin-top:0!important;
+}

@@ -1,0 +1,197 @@
+/**
+ * _layout.scss
+ */
+*, *::before, *::after {
+	padding:0;
+	margin:0;
+	box-sizing:inherit;
+}
+
+html {
+	box-sizing:border-box;
+	height:100%;
+}
+body {
+	height:100%;
+	font-family:'Libre Baskerville';
+	line-height:1.5em;
+	color:#303030;
+	background-color:$white;
+}
+
+.container {
+	width:100%;
+	@include display(flex);
+	
+	&.outer {
+		@include flex-direction(column);
+	}
+	
+	.left, .right {
+		width:100%;
+	}
+}
+
+
+.main-menu {
+	@include display(flex);
+	width:100%;
+	
+	ul {
+		margin:0;
+		padding:0;
+		width:100%;
+		list-style:none;
+		@include display(flex);
+		@include justify-content(space-between);
+	}
+	li {
+		@include flex(1 0 auto);
+		width:20%;
+	}
+	a {
+		display:block;
+		text-align:center;
+		line-height:3em;
+		font-family:$sans;
+		text-decoration:none;
+		color:#fff;
+		&:hover {
+			text-decoration:underline;
+		}
+	}
+}
+
+
+.left {
+	background-color:$primary-color;
+	@include background-image(linear-gradient(to right, $primary-color, shade($primary-color, 7%)));
+	// box-shadow:0 0 30px rgba(30, 30, 30, 0.2);
+	color:#fff;
+	@include display(flex);
+}
+
+.right {
+	padding:1em;
+}
+
+.card {
+	width:300px;
+	height:120px;
+	margin:auto;
+
+	background-color:#fff;
+	color:#303030;
+	padding:1em;
+	box-shadow:0 0 10px rgba(30, 30, 30, 0.2);
+}
+
+p {
+	margin-bottom:1.5em;
+}
+
+@media screen and (min-width:801px) {
+	.container {
+		height:100%;
+		&.outer {
+			@include flex-direction(row);
+		}
+		
+		.left {
+			width:33%;
+			height:100%;
+			position:fixed;
+			@include flex-direction(column);
+		}
+		.right {
+			width:77%;
+			min-height:101%;
+			max-width:40em;
+			margin-left:33%;
+			padding:3em;
+		}
+	}
+	
+	.main-menu {
+		@include flex(1);
+		@include display(flex);
+		
+		ul {
+			width:auto;
+			margin:auto 0 auto auto;
+			@include flex-direction(column);
+			@include transform(translateY(-100px)); // height of img
+		}
+		li {
+			width:100%;
+			padding-right:1em;
+			position:relative;
+
+		}
+		a {
+			text-align:right;
+			line-height:1.25em;
+			font-size:1.25em;
+			text-transform:uppercase;
+		}
+	}
+
+	body.home .main-menu-home,
+	body.blog .main-menu-blog,
+	body.about .main-menu-about,
+	body.contact .main-menu-contact,
+	body.more .main-menu-more {
+		&::after {
+			content:'';
+			position:absolute;
+			right:0;
+			top:0.4em;
+			width:0;
+			height:0;
+			border:6px solid rgba($white, 0);
+			border-right:10px solid rgba($white, 1.0);
+		}
+	}
+}
+
+.site-footer {
+	// For now...
+	display:none; 
+}
+
+
+.johannes-braun {
+
+	@include flex(1 0 auto);
+	overflow:hidden;
+	text-align:right;
+	width:100%;
+	padding:1em;
+	// outline:1px solid salmon;
+	@include display(flex);
+	@include align-items(center);
+
+	display:none;
+
+	a {
+		display:inline-block;
+		@include order(2);
+		color:$white;
+	}
+
+	img {
+		border-radius:50%;
+		border:2px solid $white;
+		width:100px;
+		height:100px;
+		// display:block;
+		box-shadow:0 0 50px rgba(255, 255, 255, 0.2);
+	}
+
+	figcaption {
+		@include order(1);
+		padding-right:0.5em;
+		color:$white;
+		@include flex(1 0 auto);
+	}
+}
