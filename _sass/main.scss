@@ -1,12 +1,12 @@
 /**
  * main.scss
  */
-@import "bourbon/bourbon";
+@import "lib/bourbon/bourbon";
 
-@import "settings";
-@import "layout";
-@import "blog";
-@import "typography";
+@import "partials/settings";
+@import "partials/layout";
+@import "partials/blog";
+@import "partials/typography";
 
 
 .prism-show-language-label {
