@@ -15,7 +15,7 @@ Ein Klassiker im Webworker-Alltag ist es, Textinhalte durch Grafiken zu ersetzen
 
 From: <http://tympanus.net/codrops/2012/10/25/kick-start-your-project-a-collection-of-handy-css-snippets/>
 
-Eine schöne Alternative zum Ausblenden von Textinhalten (zum Beispiel, um Text durch Bilder zu ersetzen, Logo im H1 usw..)
+Eine schöne Alternative zum Ausblenden von Textinhalten (zum Beispiel, um Text durch Bilder zu ersetzen, Logo im H1 usw&hellip;)
 
 Anstatt
 
