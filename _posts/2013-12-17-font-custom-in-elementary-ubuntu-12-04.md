@@ -10,6 +10,7 @@ tags:
   - svg
   - webfont
   - workflow
+bodyclass: blog
 ---
 Inzwischen habe ich mich so an [elementaryOS][1] gewöhnt, dass ein Distributionswechsel gar nicht mehr in Frage kommt. Heute habe ich von [Font Custom][2] erfahren, einem in Ruby geschriebenen Kommandozeilentool zur Erstellung von (Icon-)Webfonts. Genau das was ich brauche, um von Webservices wie z. Bsp. [IcoMoon][3] unabhängig zu sein (wobei IcoMoon trotzdem ein sehr geniales Tool ist und bleibt) und ideal zur Integration in einen [Build-Prozeß mit Make][4].
 

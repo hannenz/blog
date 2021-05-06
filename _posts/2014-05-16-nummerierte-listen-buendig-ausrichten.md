@@ -5,6 +5,7 @@ layout: post
 permalink: /nummerierte-listen-buendig-ausrichten/
 categories:
   - Blog
+bodyclass: blog
 ---
 
 <p class="post-excerpt">Nummerierte Listen hübsch ausrichten ist gar nicht so einfach. Aus der Reihe "Ich poste es, weil ich es nicht jedes mal googlen will"</p>
@@ -15,7 +16,7 @@ Das Problem: Man benutzt für `list-style-position` entweder `outside`, was zwar
 
 Dieses Problem lässt sich folgendermassen lösen:
 
-<iframe height="350" width="800" src="http://codepen.io/hannenz/embed/yBhGm"></iframe>
+<iframe height="350" width="800" src="https://codepen.io/hannenz/embed/yBhGm"></iframe>
 
 Credits: [http://www.456bereastreet.com/archive/201105/styling\_ordered\_list_numbers/][1]
 

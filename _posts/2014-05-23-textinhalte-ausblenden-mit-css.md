@@ -8,6 +8,7 @@ categories:
 tags:
   - css
   - snippet
+bodyclass: blog
 ---
 <p class="post-excerpt">
 Ein Klassiker im Webworker-Alltag ist es, Textinhalte durch Grafiken zu ersetzen. Das kann man auf die unterschiedlicheste Art und Weise lösen, hier ist die beste.
@@ -19,17 +20,17 @@ Eine schöne Alternative zum Ausblenden von Textinhalten (zum Beispiel, um Text 
 
 Anstatt
 
-<pre><code class="language-css">
+<pre><code class="language-css line-numbers">
     .ir {
-        text-indent:-9999em;
-        overflow:hidden;
+        text-indent: -9999em;
+        overflow: hidden;
     }
 </code></pre>
     
 
 können wir schreiben:
 
-<pre><code class="language-css">
+<pre><code class="language-css line-numbers">
     .ir {
         text-indent: 100%;
         white-space: nowrap;

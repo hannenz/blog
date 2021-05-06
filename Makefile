@@ -1,7 +1,7 @@
 project=hannenz
 project_dir:=/home/hannenz/hannenz.de
 
-build: blog css/main.css 
+build: css/main.css blog
 
 clean:
 	rm -rf build/*
@@ -19,8 +19,8 @@ blog: $(blogfiles)
 
 css_src_files:=$(shell find _sass/ -type f -iname '*.scss')
 css/main.css: $(css_src_files)
-	@mkdir -p css
-	@sass $< > $@
+	mkdir -p css
+	sass _sass/main.scss > $@
 
 # Javascript
 

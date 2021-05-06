@@ -8,6 +8,7 @@ categories:
 tags:
   - css
   - sass
+bodyclass: blog
 ---
 Gerne benutze ich <a href="http://sass-lang.com" title="Sass " target="_blank"><em>Sass</em></a>. Der CSS-Präprozessor stellt wirklich eine sinnvolle und erquickend umfassende Ergänzung zur Stylesheet-Entwicklung dar, die man schon bald nicht mehr missen will. <!--more-->
 

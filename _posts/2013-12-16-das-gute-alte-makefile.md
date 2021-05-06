@@ -7,6 +7,7 @@ categories:
   - Blog
 tags:
   - workflow
+bodyclass: blog
 ---
 In letzter Zeit liest man viel über [grunt][1] und andere &#8220;Taskmanager&#8221;, die einem als Web-Worker das Leben einfacher machen, z. Bsp. erst letztens ein (an sich super) Artikel im 24ways.com Adventskalender: [Grunt for People Who Think Things Like Grunt are Weird and Hard][2]. Ich selbst habe mit Grunt noch keine Erfahrungen gemacht und nach dem Lesen des Artikels beschlich mich das Gefühl, das hier doch eigentlich das Rad neu erfunden wird und heute vielleicht viel zu schnell vergessen wird, welche tools uns als Entwicklern schon seit Urzeiten zur Verfügung stehen. In diesem Fall spreche ich natüclich vom guten alten [`make`](http://linux.die.net/man/1/make).
 
@@ -16,14 +17,14 @@ Alles, was in oben genanntem Artikel mit Grunt über eine doch nicht gerade unko
 
 So zum Beispiel kann ein typisches Web-Projekt mit Sass und Javascript schon mal sehr umfassend automatisiert werden. Das Makefile entstammt einem aktuellen &#8220;real-life&#8221; Projekt, das ich im Moment umsetze:
 
-<pre><code class="language-makefile">
+<pre class="line-numbers"><code class="language-makefile">
     SASS=gsassc
     JSCOMP=yui-compressor
 </code></pre>
 
 Hier werden zunächst mal die &#8220;Compiler&#8221; als Variablen festgelegt, ich verwende als SASS-Compiler eine Eigenentwicklung namens [gsassc][3], die auf [libsass][4] basiert und in C implementiert ist, was für rasend schnelle Kompilierungszeiten sorgt. Hier könnte aber natürlich genausogut `SASS=sass` stehen. Für die Minifizierung der Javascript-Dateien benutze ich den [yui-compressor][5]
 
-<pre><code class="language-makefile">
+<pre class="line-numbers"><code class="language-makefile">
     SASSDIR=sass
     CSSDIR=css
     JSDIR=javascript
@@ -46,34 +47,34 @@ Das jeweilige <code class="language-makefile">$(addprefix ...)</code> Konstrukt 
 
 Jetzt folgen die eigentlichen Make-targets und ihre Abhängigkeiten:
 
-<pre><code class="language-makefile">
+<pre class="line-numbers"><code class="language-makefile">
     all: $(CSSDIR) $(CSS) $(JSMIN) $(MODULES)
 </code></pre>    
 
 Das Target `all` soll alles kompilieren, hängt also ab von allen Modulen.
 
-<pre><code class="language-makefile">
+<pre class="line-numbers"><code class="language-makefile">
     $(CSSDIR)/%.css: $(SASSDIR)/%.scss $(MODULES)
         $(SASS) --style nested $< -o $@
 </code></pre>
 
 Diese Regel gibt an, wie aus \*.scss Dateien \*.css entstehen sollen, nämlich durch Aufruf von gsassc mit entspr. Paramteren. `$<` steht für input, `$@` für den Namen des targets
 
-<pre><code class="language-makefile">
+<pre class="line-numbers"><code class="language-makefile">
     $(CSSDIR)/%.min.css: $(SASSDIR)/%.scss $(MODULES)
         $(SASS) --style compressed $<  -o $@
 </code></pre>    
 
 Die nächste Regel beschreibt entsprchend das Vorgehen, wenn `*.min.css` Dateien enstehen sollen. Die Regel ist analog zur oberen, nur werden dem SASS-Compiler andere Parameter übergeben
 
-<pre><code class="language-makefile">
+<pre class="line-numbers"><code class="language-makefile">
     $(JSDIR)/%.min.js: $(JSDIR)/%.js
         $(JSCOMP) -o $@ $<
 </code></pre>    
 
 Und schliesslich das Ganze noch für die Minifizierung von Javascript Dateien.
 
-<pre><code class="language-makefile">
+<pre class="line-numbers"><code class="language-makefile">
     clean:
         rm -f $(CSSDIR)/*.css
 </code></pre>    
@@ -82,7 +83,7 @@ Ein `clean`-Target ist auch immer ganz nützlich, um das Projekt von allen Objek
 
 Und hier noch mal das komplette Makefile:
 
-<pre><code class="language-makefile">
+<pre class="line-numbers"><code class="language-makefile">
     SASS=gsassc
     JSCOMP=yui-compressor
 

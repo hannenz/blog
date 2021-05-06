@@ -7,6 +7,7 @@ categories:
   - Blog
 tags:
   - css
+bodyclass: blog
 ---
 Heute bin ich auf einen sehr interessanten Sachverhalt gestossen, den ich kurz hier in Blogform festhalten möchte.
 
@@ -20,7 +21,7 @@ Alle Implementationen die ich bisher gesehen habe – und das schliesst die Mixi
 
 Das erklärt auch, warum das Phänomen nicht in jedem Browser auftritt: Es tritt natürlich nur dort auf wo a) RGBA Werte und b) Anti-Aliasing unterstützt werden. Welche das genau sind liesse sich sicher leicht rausfinden, aber ich denke besser wäre es doch einfach, auf folgende Schreibweise umzusteigen:
 
-<pre><code="language-css">
+<pre><code class="language-css">
 border:20px solid rgba(255, 255, 255, 0);
 border-top:20px solid rgba(255, 255, 255, 1.0);
 </code></pre>
@@ -29,7 +30,7 @@ Wobei die RGB Farbe in beiden Fällen der gewünschten Dreiecksfarbe entspricht,
 
 Ein Sass Mixin könnte dann entsprechend so aussehen (dreist geklaut, angepasst und für Demonstrationszwecke gekürzt aus den <a href="http://bourbon.io" title="Bourbon Sass Framework" target="_blank">Bourbon</a> Addons) :
 
-<pre><code class="language-sass">
+<pre><code class="language-scss">
 @mixin triangle ($size, $color, $direction) {
     height: 0;
     width: 0;

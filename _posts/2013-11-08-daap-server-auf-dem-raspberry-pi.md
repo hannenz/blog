@@ -8,6 +8,7 @@ categories:
 tags:
   - daap
   - raspberry pi
+bodyclass: blog
 ---
 Schon seit langem beschäftigt mich die Frage, wie ich am besten meine Musiksammlung verwalten lasse. Im Moment liegt die komplette Sammlung auf einer externen USB-Festplatte, die an einem Raspberry Pi hängt. Dieser wiederum ist an die Wohnzimmer-Stereoanlage angeschlossen. Meine Musik möchte ich natürlich über die Stereoanlage hören, aber auch &#8220;nach extern&#8221; streamen, z. Bsp. bei der Arbeit oder beim Joggen auf dem Smartphone.
 

@@ -5,6 +5,7 @@ layout: post
 permalink: /todo-eine-todo-txt-anwendung-fuer-elementaryos/
 categories:
   - Allgemein
+bodyclass: blog
 ---
 [todotxt][1] App für [elementaryOS][2]
 

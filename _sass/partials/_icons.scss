@@ -1,0 +1,16 @@
+/**
+ * _sass/partials/_icons.scss
+ *
+ * @author Johannes Braun <hannenz@posteo.de>
+ * @package hannenz.de
+ */
+.icon {
+	display: inline-block;
+	vertical-align: middle;
+	// width: 48px;
+	// height: 48px;
+	path {
+		// stroke-width: 2px;
+		stroke: currentColor;
+	}
+}
