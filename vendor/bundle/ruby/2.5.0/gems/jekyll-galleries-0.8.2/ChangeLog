@@ -1,0 +1,29 @@
+== 0.8.2 [2014-05-07]
+
+* Add gallery cover thumbnail
+
+== 0.8.1 [2014-05-07]
+
+* Fixed bug: thumbnail generation not working
+
+== 0.8.0 [2014-03-13]
+
+* Add `top` as an attribute, for putting an gallery on the top of index page
+* Automatically generate thumbnails for galleries
+
+== 0.7.2 [2014-02-20]
+
+* Add full documentation
+* Add `Photo` class to store photo information
+
+== 0.7.1 [2014-02-10]
+
+Clean up source code
+
+== 0.7.0 [2014-02-10]
+
+Basic features
+
+* Configure from _config.yml.
+* Automatic generating galleries from image folders.
+* Attributes for GalleryPage object: url, name, slug, date, photo_urls

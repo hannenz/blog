@@ -1,51 +1,76 @@
 project=hannenz
 project_dir:=/home/hannenz/hannenz.de
+DIST:=./dist
+JEKYLL:=/usr/bin/jekyll
 
-build: css/main.css blog
+
+.PHONY: clean blog $(DIST)/js/vendor $(DIST)/css/vendor fonts deploy
+
+build: clean $(DIST)/css/main.css $(DIST)/js/main.js $(DIST)/css/vendor $(DIST)/js/vendor fonts blog
+
+fe: $(DIST)/css/main.css $(DIST)/js/main.js
+
 
 clean:
-	rm -rf build/*
+	rm -rf $(DIST)/*
 
-rebuild: clean build 
 
 
 blogfiles:=$(wildcard posts/*.md)
-blog: $(blogfiles)
-	jekyll build
-
+blog: $(blogfiles) fe
+	$(JEKYLL) build
 
 
 # SASS > CSS
+css_src_files:=$(shell find src/css/ -type f -iname '*.scss')
+$(DIST)/css/main.css: $(css_src_files)
+	mkdir -p $(DIST)/css
+	sass --style compressed src/css/main.scss > $@
 
-css_src_files:=$(shell find _sass/ -type f -iname '*.scss')
-css/main.css: $(css_src_files)
-	mkdir -p css
-	sass _sass/main.scss > $@
 
 # Javascript
+js_src_files:=\
+	src/js/main.js\
+	src/js/test.js
+$(DIST)/js/main.js: src/js/main.js src/js/test.js
+	mkdir -p $(DIST)/js
+	cat $^ | terser --compress --mangle > $@
 
-# jsfiles=$(shell find src/js/ -type f -name '*.js')
-# js/main.js: $(jsfiles)
-# 	mkdir -p build/js
-#
-# 	cat $(jsfiles) | yui-compressor --type js > $@
+
+$(DIST)/js/gallery.js: src/js/gallery.js
+	mkdir -p $(DIST)/js
+	terser --compress --mangle -- $^ > $@
+
+
+js_vendor_files=$(shell find src/js/vendor/ -type f -name '*.js')
+$(DIST)/js/vendor: $(js_vendor_files)
+	mkdir -p $@
+	cp -ra $^ $@/
+
+
+css_vendor_files=$(shell find src/css/vendor/ -type f -name '*.css')
+$(DIST)/css/vendor: $(css_vendor_files)
+	mkdir -p $@
+	cp -ra $^ $@/
+
+
 
 # SVG
-
 # svgfiles=$(shell find src/svg/ -type f -name '*.svg')
 # build/svg/symbol-defs.svg: $(svgfiles)
 # 	svgmerge $^ | svgo -- - > $@
 #
-	
-# Copy files directly
-copy: $(COPYDIRS)
-$(COPYDIRS):
-	mkdir -p build
-	rsync -rupE src/$@ build
-	cp src/index.html build/index.html
 
-deploy:
-	rsync -ae ssh $(project_dir)/_site/ hannenz.de:/www/blog/
+font_files:=$(shell find src/fonts/ -type f)
+fonts: $(font_files)
+	mkdir -p $(DIST)/fonts
+	rsync -a src/fonts/ $(DIST)/fonts/
 
 
-.PHONY: frontend clean rebuild copy $(COPYDIRS) deploy
+deploy: build
+	rsync --delete -ave ssh $(project_dir)/_site/ hannenz.de:/www/blog/
+	ssh hannenz.de "cache-purge hannenz.de && cache-purge blog.hannenz.de"
+
+watch:
+	browser-sync start --proxy "https://hannenz.hannenz.localhost" --files "_site/dist/*" --files "_site/**/*.html"
+

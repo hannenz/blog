@@ -41,5 +41,5 @@ padding-left: 0.6em;
 
 Das funktioniert und liefert das optisch richtige Ergebnis, es hängt jedoch wohl vom konkreten Einsatzzweck ab, ob die Verwendung eines Extra-Paddings eine Option ist oder nicht (Alternativ könnte man natürlich genausogut mit einem `margin-left` oder auch mit `position:relative` und `left:0.6em` experimentieren. Trotz allem &#8211; es bleibt ein Workaround und ein schaler Nachgeschmack&#8230; Typografie im Web? 90%.
 
- [1]: /img/letterspacing_aligncenter_1.jpg
- [2]: /img/letterspacing_aligncenter_2.jpg
+ [1]: /media/letterspacing_aligncenter_1.jpg
+ [2]: /media/letterspacing_aligncenter_2.jpg

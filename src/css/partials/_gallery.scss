@@ -1,0 +1,94 @@
+/**
+ * _sass/partials/_gallery.scss
+ *
+ * @author Johannes Braun <hannenz@posteo.de>
+ * @package hannenz.de
+ * @version 2021-05-15
+ */
+
+$breakpoint: 900px;
+
+.gallery {
+	--gutter: 1rem;
+	@media screen and (min-width: #{$breakpoint}) {
+		--gutter: 3rem;
+	}
+
+	max-width: 1280px;
+	padding: var(--gutter);
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #f0fafa;
+	background-image: linear-gradient(45deg, rebeccapurple, mediumturquoise);
+	background-attachment: fixed;
+
+	.headline {
+		font-family: 'Libre Baskerville' !important;
+		text-align: center;
+		font-weight: 800;
+		font-size: 3rem;
+		margin-top: 3rem;
+		background: #f0e7d7;
+		padding: 1rem;
+		border-radius: 3px;
+		width: auto;
+		max-width: 400px;
+		margin: 3rem auto;
+	}
+
+
+	#content > figure + figure {
+		margin-top: var(--gutter);
+	}
+
+	figure {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	img {
+		display: inline-block;
+		width: auto;
+		height: auto;
+		max-width: 100%;
+		max-height: 75vh;
+		box-shadow: 0 0 20px rgba(30, 30, 30, 0.35);
+		border-radius: 3px;
+	}
+
+	figcaption {
+		text-align: center;
+		max-width: 75%;
+		width: auto;
+		margin: 1rem auto;
+		text-align: center;
+		// font-style: italic;
+		flex: 1 0 100%;
+		background-color: #f0e7d7;
+		display: inline-block;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+		border-radius: 2px;
+		transform: translateY(-3rem);
+		font-size: 0.75rem;
+		line-height: 1.5rem;
+		@media screen and (min-width: #{$breakpoint}) {
+			font-size: 1.5rem;
+			line-height: 2rem;
+		}
+		color: rebeccapurple;
+	}
+
+	footer {
+		color: #fff;
+		font-size: 3rem;
+		text-align: center;
+		margin-top: 6rem;
+		text-transform: uppercase;
+
+	}
+}

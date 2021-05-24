@@ -14,3 +14,8 @@ reading_time:
   second_plural: "s"
   minute_singular: "min"
   minute_plural: "min"
+
+# Includes (dotfiles are excluded by default)
+include: [.htaccess]
+# Excludes
+exclude: [src, README.md, Makefile, Session.vim, vendor]

@@ -24,7 +24,7 @@ Jedoch muss man hier die Einstellungen von Hand im dconf Editor (oder mit gsetti
 
 <pre><code class="language-none">org.gnome.settings-daemon.plugins.typing-break</code></pre>
 
-<img src="/img/dconf-typing-break.jpg" alt="dconf-typing-break" />
+<img src="/media/dconf-typing-break.jpg" alt="dconf-typing-break" />
 
  [1]: http://www.cherry.de/cid/tastaturen_CHERRY_MX-Board_30.htm
  [2]: http://daskeyboard.com
